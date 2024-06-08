@@ -69,6 +69,8 @@ func DecompressBody(Body []byte, encoding []string, content []string) (parsedBod
 			"image/gif":       true,
 			"image/avif":      true,
 			"application/pdf": true,
+			"audio/mpeg":      true,
+			"audio/aac":       true,
 		}
 		if decodingTypes[content[0]] {
 			return base64.StdEncoding.EncodeToString(Body)
