@@ -1,5 +1,5 @@
 {
-  "name": "cycletls",
+  "name": "@ikechan8370/cycletls",
   "version": "1.0.26",
   "description": "Spoof TLS/JA3 fingerprint in JS with help from Go",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "directory": "git+https://github.com/Danny-Dasilva/CycleTLS.git"
+    "directory": "git+https://github.com/ikechan8370/CycleTLS.git"
   },
   "keywords": [
     "cycletls",
@@ -36,9 +36,9 @@
   ],
   "license": "GPL3",
   "bugs": {
-    "url": "https://github.com/Danny-Dasilva/CycleTLS/issues"
+    "url": "https://github.com/ikechan8370/CycleTLS/issues"
   },
-  "homepage": "https://github.com/Danny-Dasilva/CycleTLS#readme",
+  "homepage": "https://github.com/ikechan8370/CycleTLS#readme",
   "dependencies": {
     "@types/node": "^17.0.24",
     "ws": "^7.5.7"
